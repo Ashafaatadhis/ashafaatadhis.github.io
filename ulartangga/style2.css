@@ -1,0 +1,117 @@
+body {
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+    background-color: cornflowerblue;
+}
+::selection {
+    color: #000;
+}
+.ppn {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.judul{
+    text-align: center;
+    font-size: 57px;
+    font-family: 'Staatliches', cursive;
+    color: black;
+    margin-top: 3%;
+}
+
+.p{
+    text-align: center;
+    font-size: 80px;
+    color: rgb(228, 179, 43);
+    margin-top: 3%;
+    font-family: 'Grandstander', cursive;;
+}
+
+span {
+    color:crimson;
+}
+
+.mulai button {
+    border: none;
+    width: 200px;
+    background-color: white;
+    height: 100px;
+    color: cornflowerblue;
+    margin-left: 560px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10%;
+}
+
+.share button {
+    border: none;
+    background-color: rgb(102, 102, 255);
+    height: 34px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 10%;
+    cursor: pointer;
+}
+
+.roll {
+    margin-left: 2%;
+    
+}
+
+button:hover {
+    background-color: crimson;
+    color: white;
+    
+}
+.ppn{
+    margin:30px;
+    height: 350px;
+
+}
+
+.contact a {
+    color: white;
+    margin-left: 47%;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline ;
+}
+
+
+
+p {
+    margin-top: -20px;
+    color: rgb(0, 155, 0);
+}
+@media (max-width:576px){
+    body {
+        overflow: hidden;
+    }
+    .ppn{
+        width: 90%;
+    }
+    
+     .mulai button {
+        width: 120px;
+        height: 45px;
+        border-radius: 5px;
+        font-size: 18px;
+        text-align: center;
+        margin-left: 180px;
+        right: 0;
+        margin-top: 50%;
+    }
+
+    .roll {
+        margin-left: 30%;
+        margin-top: 2%;
+    }
+}

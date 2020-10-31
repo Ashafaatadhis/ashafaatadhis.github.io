@@ -1,0 +1,26 @@
+.stoplih{
+
+    position: relative;
+    top: 500px;
+    z-index: -1;
+}
+
+.music{
+    display: none;
+}
+.judul{
+    text-align: center;
+    font-size: x-large;
+}
+
+.ppn{
+    margin:30px;
+    height: 350px;
+
+}
+@media (max-width:576px){
+    .ppn{
+        width: 90%;
+    }
+    
+}
