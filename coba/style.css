@@ -1,0 +1,35 @@
+.container {
+    width: 100%;
+    height: 1000px;
+    background-color: skyblue;
+    background-image: linear-gradient(skyblue, white);
+    display: flex;
+}
+
+.container .tombol {
+    width: 100px;
+    height: 50px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    padding: 5px;
+    box-shadow: 0 0 5px 2px black;
+}
+
+.container .tombol:active {
+    width: 97px;
+    height: 47px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    line-height: 47px;
+    font-size: 27px;
+    padding: 5px;
+    box-shadow: inset 0 0 10px 2px black;
+}
