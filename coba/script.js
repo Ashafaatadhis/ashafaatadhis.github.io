@@ -22,7 +22,7 @@ const play = (e) => {
     
     document.querySelector('.gambarGif1').style.position = 'absolute';
     
-    document.querySelector('.gambarGif2').style.backgroundImage = "url('gifult2.gif')";
+    document.querySelector('.gambarGif2').style.backgroundImage = "url('gifult1.gif')";
 //     document.querySelector('.gambarGif2').style.backgroundSize = "cover";
     document.querySelector('.gambarGif2').style.backgroundRepeat = "no-repeat";
     
