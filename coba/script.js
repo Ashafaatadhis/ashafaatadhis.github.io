@@ -23,7 +23,7 @@ const play = (e) => {
     document.querySelector('.gambarGif1').style.position = 'absolute';
     
     document.querySelector('.gambarGif2').style.backgroundImage = "url('gifult2.gif')";
-    document.querySelector('.gambarGif2').style.backgroundSize = "cover";
+//     document.querySelector('.gambarGif2').style.backgroundSize = "cover";
     document.querySelector('.gambarGif2').style.backgroundRepeat = "no-repeat";
     
     document.querySelector('.gambarGif2').style.position = 'absolute';
@@ -56,5 +56,5 @@ const play = (e) => {
             text: "Hehey not bad... habede Dewi ..zz\n\t -Adhis",
             button: "Tutup",
           });
-    }, 3000)
+    }, 7000)
 };
