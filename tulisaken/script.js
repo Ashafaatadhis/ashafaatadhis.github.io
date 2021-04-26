@@ -1,6 +1,6 @@
 let img, font;
 let fontSize = 10;
-let batasLength = 55;
+let batasLength = 60;
 
 let isiPesan = document.querySelector('#pesan');
 let submitan = document.querySelector('#submit');
