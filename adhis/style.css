@@ -1,0 +1,555 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap");
+
+nav .navbar {
+  background: none;
+}
+
+.active {
+  color: #4b6cc1 !important;
+}
+
+.hilangkan {
+  display: none;
+}
+
+body {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul.nav {
+  display: inline;
+}
+
+ul.nav li {
+  display: inline;
+}
+
+.mycontainer {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0;
+  /* margin: 0 20px; */
+}
+
+/* nav styling */
+
+nav,
+.jumbotron,
+.work,
+.main-work {
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+}
+
+nav .myimg {
+  object-fit: cover;
+}
+
+/* nav .left {
+  width: 10%;
+} */
+
+nav .ijin {
+  margin-top: 80px;
+}
+
+nav .left {
+  margin-right: 20px;
+  align-items: center;
+}
+
+nav .right .title {
+  /* line-height: 100%; */
+  transform: translateY(-5px);
+  font-size: 28px;
+  position: relative;
+  padding-bottom: 12px;
+  margin-bottom: auto;
+  color: #000;
+}
+
+nav .right .title::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  border-radius: 4px;
+  height: 6px;
+  width: 40%;
+  background-color: #4b6cc1;
+}
+
+nav .menu a {
+  /* margin-right: 30px; */
+  font-size: 18px;
+  color: #5e5e5e;
+}
+
+nav .menu a:hover {
+  transition: all 0.3s ease;
+
+  color: #4b6cc1;
+}
+
+/* jumbotron */
+
+.jumbotron .main {
+  border-radius: 5px;
+  padding: 40px;
+  margin: 0 auto;
+  margin-top: 80px;
+  background-color: #f1f8fa;
+}
+
+.jumbotron .main .title {
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.jumbotron .main p.tentangsaya {
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 180%;
+}
+
+.article {
+  width: 100%;
+  padding-right: 0;
+}
+
+.articles .article {
+  margin-top: 80px;
+}
+
+.articles .article .title {
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.articles .article .articleTitle {
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.articles .article .filter-sign {
+  font-size: 16px;
+  padding: 1px 10px;
+  color: #0073aa;
+  font-weight: 500;
+  margin-top: 10px;
+  border: 1px solid #0073aa;
+  transition: all 0.3s ease;
+}
+
+.articles .article .filter-sign:hover {
+  color: #191a1d;
+  border: 1px solid #191a1d;
+}
+
+.articles .article .info_tanggal {
+  font-size: 18px;
+  font-weight: 300;
+  color: #5e5e5e;
+}
+
+.articles .article .description {
+  font-size: 20px;
+  font-weight: 300;
+  color: #000;
+}
+
+.articles .article a.read_article {
+  font-size: 20px;
+  display: inline-block;
+  font-weight: 300;
+  color: #4b6cc1;
+  margin-bottom: 35px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.articles .article a.read_article:hover::after {
+  width: 100%;
+}
+
+.articles .article a.read_article::after {
+  content: "";
+  width: 0px;
+  height: 1px;
+  display: block;
+  background-color: #4b6cc1;
+  transition: all 0.3s ease;
+}
+
+/* .articles .article a.read_article:hover {
+  text-decoration: underline;
+  transition: all 0.3s ease;
+} */
+
+hr.batas {
+  border: 0;
+  height: 4px;
+  background-color: #444;
+  width: 100%;
+  margin-top: 35px;
+  border-radius: 5px;
+}
+
+/* WORK */
+.work {
+  margin-top: 80px;
+}
+
+.work .title {
+  color: #191a1d;
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.work .desc {
+  color: #000;
+  font-size: 22px;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+.main-work .imgwork {
+  box-shadow: 0px 0px 17px 4px rgba(0, 0, 0, 0.13);
+  margin-top: 50px;
+  transition: all 0.3s ease;
+  /* outline: rgb(212, 212, 212); */
+}
+
+.main-work .imgwork:hover {
+  /* transform: scale(1.05); */
+  transform: scale(1.05);
+}
+
+.main-work .subtitle {
+  font-size: 40px;
+  font-weight: 400;
+  color: #191a1d;
+}
+
+.main-work .view-details {
+  font-size: 16px;
+  color: #fff;
+  /* border: 0; */
+  border: 2px solid transparent;
+  display: inline-block;
+  font-weight: 500;
+  padding: 10px 25px;
+  border-radius: 50px;
+  margin-top: 25px;
+  margin-left: -5px;
+  /* position: absolute; */
+  background: #4b6cc1;
+  transition: all 0.3s ease;
+}
+
+.main-work .view-details:hover {
+  color: #4b6cc1;
+  cursor: pointer;
+  border: solid 2px #4b6cc1;
+  background: none;
+  transform: scale(1.08);
+}
+
+.work-container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+}
+
+.main-work .subdesc {
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 38px;
+  margin-top: 20px;
+}
+
+.main-work .kind-desc {
+  font-size: 20px;
+  margin-top: 8px;
+  display: block;
+  font-weight: 300;
+  color: #5e5e5e;
+}
+
+.main-work .kind-desc i {
+  font-size: 14px;
+  color: #919191;
+}
+
+/* footer */
+
+footer .column {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+footer .right span {
+  color: #f9322c;
+}
+
+.right .menu a {
+  margin-right: 20px;
+}
+
+.left span {
+  display: none;
+}
+
+@media (max-width: 1220px) {
+  .main-work .imgwork {
+    width: 600px;
+    /* outline: rgb(212, 212, 212); */
+  }
+
+  .main-work .imgwork:hover {
+    transform: scale(1.03);
+  }
+
+  .work-container {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+
+@media (max-width: 670px) {
+  header.iniheader {
+    flex-direction: column !important;
+    align-items: start !important;
+  }
+
+  nav .right {
+    margin-left: 2px !important;
+    margin-bottom: -15px;
+  }
+
+  nav .left .title {
+    /* line-height: 100%; */
+    transform: translateY(-5px);
+    font-size: 28px;
+    position: relative;
+    padding-bottom: 12px;
+    margin-bottom: auto;
+    color: #000;
+    margin-left: 20px;
+  }
+
+  nav .left .title::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    border-radius: 4px;
+    height: 6px;
+    width: 40%;
+    background-color: #4b6cc1;
+  }
+
+  .left span {
+    display: inline;
+  }
+
+  .right a.d-flex {
+    display: none !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  nav .mynav {
+    margin: 30px 35px;
+    align-items: center;
+  }
+
+  nav .ijin {
+    margin-top: 40px;
+  }
+
+  /* nav .right {
+    min-height: 90px;
+    height: 10vw;
+  } */
+
+  .jumbotron .main {
+    width: 95%;
+    margin-top: 50px;
+    width: calc(100% - 70px);
+    margin-left: 35px;
+  }
+  .jumbotron .main .title {
+    font-size: 40px;
+  }
+
+  .jumbotron .main p.tentangsaya {
+    font-size: 18px;
+  }
+
+  .articles .article {
+    width: calc(100% - 70px);
+    margin-left: 35px;
+    margin-right: 35px;
+  }
+
+  .main-work .imgwork {
+    box-shadow: 0px 0px 17px 4px rgba(0, 0, 0, 0.13);
+    margin-top: 50px;
+    width: 600px;
+    /* outline: rgb(212, 212, 212); */
+  }
+
+  .work {
+    margin: 30px 35px;
+    align-items: center;
+  }
+
+  .work .title {
+    font-size: 42px;
+  }
+
+  .work .desc {
+    font-size: 18px;
+  }
+
+  .main-work .imgwork {
+    width: 55vw;
+  }
+
+  .main-work .sub-main-work .right .subtitle {
+    font-size: 34px;
+  }
+  .main-work .sub-main-work .right .subdesc {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .main-work .sub-main-work .right .kind-desc {
+    font-size: 16px;
+  }
+
+  .hrbatas {
+    width: calc(100% - 70px);
+    margin: 0 35px;
+  }
+
+  .mycontainer {
+    padding: 0;
+  }
+
+  footer .footer {
+    width: calc(100% - 70px);
+    margin-left: 35px;
+    margin-right: 35px;
+  }
+}
+
+@media (max-width: 768px) {
+  nav .right .title {
+    font-size: 23px;
+  }
+
+  .work-container {
+    margin: 30px;
+  }
+
+  .main-work .sub-main-work {
+    display: block !important;
+    width: 100%;
+  }
+
+  .main-work .sub-main-work .left img {
+    width: 100%;
+    margin: 30px 0px;
+  }
+
+  .main-work .sub-main-work .left {
+    width: 100%;
+  }
+
+  .main-work .sub-main-work .right {
+    width: 100%;
+    margin: 0 !important;
+
+    padding: 0 !important;
+    margin-left: 35px;
+  }
+}
+
+@media (max-width: 500px) {
+  nav .right .menu a {
+    font-size: 15px;
+  }
+
+  nav .mynav {
+    margin: 30px 15px;
+    margin-bottom: 15px;
+  }
+
+  nav .right {
+    min-height: 70px;
+    height: 18vw;
+  }
+
+  .jumbotron .main {
+    width: calc(100% - 30px);
+    margin: 15px;
+  }
+
+  .articles .article {
+    width: calc(100% - 30px);
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .work-container {
+    margin: 15px;
+  }
+
+  .work {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .work .title {
+    font-size: 36px;
+  }
+
+  .work .desc {
+    font-size: 18px;
+  }
+
+  .hrbatas {
+    width: calc(100% - 30px);
+    margin-left: 15px;
+    margin-top: 30px;
+    margin-right: 15px;
+  }
+
+  .main-work .view-details {
+    font-size: 14px;
+  }
+
+  footer .footer {
+    width: calc(100% - 30px);
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  hr.batas {
+    width: 100%;
+  }
+}

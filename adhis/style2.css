@@ -1,0 +1,22 @@
+.right .menu a {
+  margin-right: 20px;
+}
+
+.left span {
+  display: none;
+}
+
+@media (max-width: 670px) {
+  header.iniheader {
+    flex-direction: column !important;
+    align-items: start !important;
+  }
+
+  .left span {
+    display: inline;
+  }
+
+  .right a.d-flex {
+    display: none !important;
+  }
+}
